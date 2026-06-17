@@ -2,6 +2,34 @@ import { useState, useEffect } from 'react';
 
 const CACHE_KEY = 'worldcup26_cache';
 
+const STADIUM_TO_BRT_OFFSET = {
+  "1": 3, "2": 3, "3": 3, // Mexico (UTC-6) -> BRT (UTC-3)
+  "4": 2, "5": 2, "6": 2, // Central (UTC-5) -> BRT (UTC-3)
+  "7": 1, "8": 1, "9": 1, "10": 1, "11": 1, "12": 1, // Eastern (UTC-4) -> BRT (UTC-3)
+  "13": 4, "14": 4, "15": 4, "16": 4 // Pacific (UTC-7) -> BRT (UTC-3)
+};
+
+function convertToBRT(localDateStr, stadiumId) {
+  if (!localDateStr || !stadiumId) return localDateStr;
+  const parts = localDateStr.split(' ');
+  if (parts.length !== 2) return localDateStr;
+  
+  const [month, day, year] = parts[0].split('/');
+  const [hour, minute] = parts[1].split(':');
+
+  const d = new Date(Date.UTC(year, month - 1, day, parseInt(hour), parseInt(minute)));
+  const offset = STADIUM_TO_BRT_OFFSET[stadiumId] || 0;
+  d.setUTCHours(d.getUTCHours() + offset);
+
+  const newMonth = String(d.getUTCMonth() + 1).padStart(2, '0');
+  const newDay = String(d.getUTCDate()).padStart(2, '0');
+  const newYear = d.getUTCFullYear();
+  const newHour = String(d.getUTCHours()).padStart(2, '0');
+  const newMinute = String(d.getUTCMinutes()).padStart(2, '0');
+
+  return `${newMonth}/${newDay}/${newYear} ${newHour}:${newMinute}`;
+}
+
 export function useWorldCupData() {
   const [data, setData] = useState({
     teams: {},
@@ -47,7 +75,17 @@ export function useWorldCupData() {
 
         const teamsData = await teamsRes.json();
         const groupsData = await groupsRes.json();
-        const gamesData = await gamesRes.json();
+        const rawGamesData = await gamesRes.json();
+
+        // Convert times to BRT
+        const gamesData = {
+          ...rawGamesData,
+          games: rawGamesData.games.map(game => ({
+            ...game,
+            local_date_original: game.local_date,
+            local_date: convertToBRT(game.local_date, game.stadium_id)
+          }))
+        };
 
         // Convert teams array to a lookup map
         const teamsMap = {};

@@ -117,3 +117,29 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255,255,255,0.2);
 }
+
+/* Loading Animation */
+.loading-container {
+  width: 100%;
+  max-width: 300px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1.5rem auto 0;
+  position: relative;
+}
+
+.loading-bar {
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--neon-green), var(--secondary-color));
+  border-radius: 4px;
+  position: absolute;
+  animation: loading-slide 1.5s infinite ease-in-out;
+}
+
+@keyframes loading-slide {
+  0% { left: -40%; }
+  100% { left: 100%; }
+}

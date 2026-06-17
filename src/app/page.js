@@ -12,8 +12,11 @@ export default function Home() {
 
   if (loading) {
     return (
-      <main className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
-        <h2 style={{ color: 'var(--neon-green)' }}>{t.loading || 'Carregando dados oficiais da Copa do Mundo...'}</h2>
+      <main className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', textAlign: 'center' }}>
+        <h2 style={{ color: 'var(--neon-green)', letterSpacing: '1px' }}>{t.loading || 'Carregando dados oficiais da Copa do Mundo...'}</h2>
+        <div className="loading-container">
+          <div className="loading-bar"></div>
+        </div>
       </main>
     );
   }

@@ -1,0 +1,88 @@
+.groupContainer {
+  margin-bottom: 2rem;
+}
+
+.groupHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: rgba(85, 45, 208, 0.2);
+  border-bottom: 1px solid var(--card-border);
+  border-radius: 12px 12px 0 0;
+}
+
+.groupTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--foreground);
+}
+
+.tableWrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th {
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  vertical-align: middle;
+}
+
+.teamRow {
+  transition: background-color 0.2s ease;
+}
+
+.teamRow:hover {
+  background-color: var(--hover-bg);
+}
+
+.teamRow:last-child td {
+  border-bottom: none;
+}
+
+.teamInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flag {
+  width: 32px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.teamName {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.points {
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.draggableIcon {
+  cursor: grab;
+  color: rgba(255, 255, 255, 0.4);
+}
+.draggableIcon:active {
+  cursor: grabbing;
+}

@@ -36,9 +36,9 @@ export function useWorldCupData() {
     async function fetchData() {
       try {
         const [teamsRes, groupsRes, gamesRes] = await Promise.all([
-          fetch('https://worldcup26.ir/get/teams'),
-          fetch('https://worldcup26.ir/get/groups'),
-          fetch('https://worldcup26.ir/get/games')
+          fetch('https://worldcup26.ir/get/teams', { cache: 'no-store' }),
+          fetch('https://worldcup26.ir/get/groups', { cache: 'no-store' }),
+          fetch('https://worldcup26.ir/get/games', { cache: 'no-store' })
         ]);
 
         if (!teamsRes.ok || !groupsRes.ok || !gamesRes.ok) {

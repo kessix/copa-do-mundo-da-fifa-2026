@@ -1,5 +1,6 @@
 import './globals.css';
 
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { LanguageProvider } from '../context/LanguageContext';
 
 export const metadata = {
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <LanguageProvider>
           {children}
         </LanguageProvider>
+        <SpeedInsights />
       </body>
     </html>
   )

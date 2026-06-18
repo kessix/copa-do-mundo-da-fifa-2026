@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from './GroupMatches.module.css';
 
 export default function GroupMatches({ games, teamsMap, t, lang }) {
@@ -32,9 +32,31 @@ export default function GroupMatches({ games, teamsMap, t, lang }) {
         }))
     }));
 
-  // Expand the most recent (last) round by default, collapse the rest
-  const defaultOpen = matchesData.length > 0 ? { [matchesData[matchesData.length - 1].md]: true } : {};
-  const [openRounds, setOpenRounds] = useState(defaultOpen);
+  const [openRounds, setOpenRounds] = useState({});
+  const [hasSetDefault, setHasSetDefault] = useState(false);
+
+  // Automatically expand the current round based on today's date
+  useEffect(() => {
+    if (matchesData.length > 0 && !hasSetDefault) {
+      const now = new Date();
+      // Default to the last round if all matches are in the past
+      let activeRoundMd = matchesData[matchesData.length - 1].md;
+
+      for (const round of matchesData) {
+        // Check if the round has any match that hasn't finished yet (accounting for a ~2hr game duration)
+        const hasFutureMatch = round.days.some(day => 
+          day.matches.some(match => new Date(match.local_date).getTime() > now.getTime() - 2 * 60 * 60 * 1000)
+        );
+        if (hasFutureMatch) {
+          activeRoundMd = round.md;
+          break;
+        }
+      }
+
+      setOpenRounds({ [activeRoundMd]: true });
+      setHasSetDefault(true);
+    }
+  }, [matchesData, hasSetDefault]);
 
   const toggleRound = (md) => {
     setOpenRounds(prev => ({ ...prev, [md]: !prev[md] }));

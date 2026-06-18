@@ -102,7 +102,11 @@ export default function KnockoutBracket({ games = [], teamsMap = {} }) {
     if (!match) return null;
 
     const matchName = lang === 'pt' ? `Jogo ${matchId}` : `Match ${matchId}`;
-    const dateFormatted = match.local_date ? match.local_date.split(' ')[0] : '';
+    let dateFormatted = '';
+    if (match.local_date) {
+      const parts = match.local_date.split(' ')[0].split('/');
+      dateFormatted = parts.length === 3 ? `${parts[1]}/${parts[0]}/${parts[2]}` : match.local_date.split(' ')[0];
+    }
     
     // Determine Team 1 Display
     const t1IsPlaceholder = match.home_team_id === "0";

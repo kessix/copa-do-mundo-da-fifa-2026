@@ -185,10 +185,16 @@ export function useWorldCupData() {
 
       } catch (error) {
         console.error('Error fetching World Cup data:', error);
+        
+        // Auto-retry after 5 seconds
+        if (typeof window !== 'undefined') {
+           setTimeout(fetchData, 5000);
+        }
+        
         // Only set error if we don't have cached data to show
         setData(prev => {
            if (Object.keys(prev.teams).length > 0) return { ...prev, loading: false }; 
-           return { ...prev, loading: false, error: error.message };
+           return { ...prev, loading: true, error: error.message }; // Keep loading true on error
         });
       }
     }

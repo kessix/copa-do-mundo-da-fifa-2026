@@ -10,21 +10,13 @@ export default function Home() {
   const { t, lang, toggleLanguage } = useLanguage();
   const { teams, groups, games, loading, error } = useWorldCupData();
 
-  if (loading) {
+  if (loading || error) {
     return (
       <main className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', textAlign: 'center' }}>
         <h2 style={{ color: 'var(--neon-green)', letterSpacing: '1px' }}>{t.loading || 'Carregando dados oficiais da Copa do Mundo...'}</h2>
         <div className="loading-container">
           <div className="loading-bar"></div>
         </div>
-      </main>
-    );
-  }
-
-  if (error) {
-    return (
-      <main className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
-        <h2 style={{ color: '#ff4444' }}>{t.error || 'Erro ao carregar dados'}</h2>
       </main>
     );
   }

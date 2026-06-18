@@ -8,7 +8,7 @@ export default function GroupMatches({ games, teamsMap, t, lang }) {
   groupGames.forEach(game => {
     const md = game.matchday;
     if (!roundsMap[md]) {
-      roundsMap[md] = { roundName: `${md}ª Rodada`, daysMap: {} };
+      roundsMap[md] = { md: parseInt(md, 10), roundName: `${md}ª Rodada`, daysMap: {} };
     }
     const dateOnly = game.local_date.split(' ')[0];
     if (!roundsMap[md].daysMap[dateOnly]) {
@@ -17,10 +17,17 @@ export default function GroupMatches({ games, teamsMap, t, lang }) {
     roundsMap[md].daysMap[dateOnly].push(game);
   });
 
-  const matchesData = Object.values(roundsMap).map(round => ({
-    roundName: round.roundName,
-    days: Object.entries(round.daysMap).map(([date, matches]) => ({ date, matches }))
-  }));
+  const matchesData = Object.values(roundsMap)
+    .sort((a, b) => a.md - b.md)
+    .map(round => ({
+      roundName: round.roundName,
+      days: Object.entries(round.daysMap)
+        .sort(([dateA], [dateB]) => new Date(dateA).getTime() - new Date(dateB).getTime())
+        .map(([date, matches]) => ({ 
+          date, 
+          matches: matches.sort((a, b) => new Date(a.local_date).getTime() - new Date(b.local_date).getTime()) 
+        }))
+    }));
 
   return (
     <div className={`glass-panel ${styles.matchesContainer}`}>

@@ -45,7 +45,7 @@ export default function Home() {
 
       <header style={{ padding: '3rem 0 4rem 0', textAlign: 'center' }}>
         <img 
-          src="https://upload.wikimedia.org/wikipedia/en/0/07/2026_FIFA_World_Cup_logo.svg" 
+          src="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" 
           alt="FIFA World Cup 2026 Logo" 
           style={{ height: '140px', marginBottom: '1rem', filter: 'drop-shadow(0px 0px 10px rgba(255,255,255,0.2))' }} 
         />

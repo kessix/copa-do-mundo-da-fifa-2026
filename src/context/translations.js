@@ -31,14 +31,14 @@ export const translations = {
       "Mexico": "México", "South Korea": "Coreia do Sul", "Czechia": "Tchéquia", "South Africa": "África do Sul",
       "Switzerland": "Suíça", "Canada": "Canadá", "Qatar": "Catar", "Bosnia and Herzegovina": "Bósnia e Herzegovina",
       "Scotland": "Escócia", "Morocco": "Marrocos", "Brazil": "Brasil", "Haiti": "Haiti",
-      "USA": "Estados Unidos", "Australia": "Austrália", "Türkiye": "Turquia", "Paraguay": "Paraguai",
-      "Germany": "Alemanha", "Ivory Coast": "Costa do Marfim", "Ecuador": "Equador", "Curaçao": "Curaçau",
+      "USA": "Estados Unidos", "United States": "Estados Unidos", "Australia": "Austrália", "Türkiye": "Turquia", "Turkey": "Turquia", "Paraguay": "Paraguai",
+      "Germany": "Alemanha", "Ivory Coast": "Costa do Marfim", "Ecuador": "Equador", "Curaçao": "Curaçau", "Curacao": "Curaçau",
       "Sweden": "Suécia", "Japan": "Japão", "Netherlands": "Holanda", "Tunisia": "Tunísia",
       "New Zealand": "Nova Zelândia", "Iran": "Irã", "Belgium": "Bélgica", "Egypt": "Egito",
-      "Uruguay": "Uruguai", "Saudi Arabia": "Arábia Saudita", "Spain": "Espanha", "Cabo Verde": "Cabo Verde",
+      "Uruguay": "Uruguai", "Saudi Arabia": "Arábia Saudita", "Spain": "Espanha", "Cabo Verde": "Cabo Verde", "Cape Verde": "Cabo Verde",
       "Norway": "Noruega", "France": "França", "Senegal": "Senegal", "Iraq": "Iraque",
       "Argentina": "Argentina", "Austria": "Áustria", "Jordan": "Jordânia", "Algeria": "Argélia",
-      "DR Congo": "Rep. Dem. do Congo", "Portugal": "Portugal", "Colombia": "Colômbia", "Uzbekistan": "Uzbequistão",
+      "DR Congo": "Rep. Dem. do Congo", "Congo DR": "Rep. Dem. do Congo", "Portugal": "Portugal", "Colombia": "Colômbia", "Uzbekistan": "Uzbequistão",
       "England": "Inglaterra", "Panama": "Panamá", "Ghana": "Gana", "Croatia": "Croácia"
     },
     language: "Idioma"

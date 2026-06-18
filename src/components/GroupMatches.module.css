@@ -54,7 +54,7 @@
 .roundTitleText {
   font-size: 1.1rem;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--neon-green);
   text-transform: uppercase;
   letter-spacing: 1px;
 }

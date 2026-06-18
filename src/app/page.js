@@ -44,6 +44,11 @@ export default function Home() {
       </div>
 
       <header style={{ padding: '3rem 0 4rem 0', textAlign: 'center' }}>
+        <img 
+          src="https://upload.wikimedia.org/wikipedia/en/0/07/2026_FIFA_World_Cup_logo.svg" 
+          alt="FIFA World Cup 2026 Logo" 
+          style={{ height: '140px', marginBottom: '1rem', filter: 'drop-shadow(0px 0px 10px rgba(255,255,255,0.2))' }} 
+        />
         <h1 className="text-gradient" style={{ fontSize: '3.5rem', marginBottom: '1rem', letterSpacing: '-1px' }}>
           {t.title}
         </h1>

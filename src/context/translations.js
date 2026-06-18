@@ -1,6 +1,6 @@
 export const translations = {
   pt: {
-    title: "Copa do Mundo da FIFA 2026™",
+    title: "Copa do Mundo da FIFA 2026",
     subtitle: "Diagrama Interativo. Arraste e solte as seleções das tabelas de classificação abaixo para construir seu caminho até a Final.",
     knockoutStage: "Fase Eliminatória",
     dragDropEnabled: "Arrastar e Soltar Ativado",
@@ -44,7 +44,7 @@ export const translations = {
     language: "Idioma"
   },
   en: {
-    title: "FIFA World Cup 2026™",
+    title: "FIFA World Cup 2026",
     subtitle: "Interactive Knockout Bracket. Drag and drop teams from the group standings below to build your path to the Final.",
     knockoutStage: "Knockout Stage",
     dragDropEnabled: "Drag & Drop Enabled",

@@ -29,6 +29,12 @@ export default function GroupMatches({ games, teamsMap, t, lang }) {
         }))
     }));
 
+  const formatDate = (dateStr) => {
+    if (!dateStr) return '';
+    const [m, d, y] = dateStr.split('/');
+    return y ? `${d}/${m}/${y}` : dateStr;
+  };
+
   return (
     <div className={`glass-panel ${styles.matchesContainer}`}>
       <div className={styles.header}>
@@ -43,7 +49,7 @@ export default function GroupMatches({ games, teamsMap, t, lang }) {
             </h4>
             {roundGroup.days.map((day, dIdx) => (
               <div key={dIdx} className={styles.matchDay}>
-                <h5 className={styles.date}>{day.date}</h5>
+                <h5 className={styles.date}>{formatDate(day.date)}</h5>
                 <div className={styles.matchesList}>
                   {day.matches.map((match, mIdx) => (
                     <div key={mIdx} className={styles.matchCard}>

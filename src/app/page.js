@@ -47,7 +47,7 @@ export default function Home() {
         <img 
           src="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" 
           alt="FIFA World Cup 2026 Logo" 
-          style={{ height: '140px', marginBottom: '1rem', filter: 'drop-shadow(0px 0px 10px rgba(255,255,255,0.2))' }} 
+          style={{ display: 'block', margin: '0 auto 1rem auto', height: '140px', filter: 'drop-shadow(0px 0px 10px rgba(255,255,255,0.2))' }} 
         />
         <h1 className="text-gradient" style={{ fontSize: '3.5rem', marginBottom: '1rem', letterSpacing: '-1px' }}>
           {t.title}

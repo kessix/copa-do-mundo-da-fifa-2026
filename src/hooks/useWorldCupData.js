@@ -80,11 +80,25 @@ export function useWorldCupData() {
         // Convert times to BRT
         const gamesData = {
           ...rawGamesData,
-          games: rawGamesData.games.map(game => ({
-            ...game,
-            local_date_original: game.local_date,
-            local_date: convertToBRT(game.local_date, game.stadium_id)
-          }))
+          games: rawGamesData.games.map(game => {
+            let localDateConverted = convertToBRT(game.local_date, game.stadium_id);
+            
+            // FIX: The worldcup26.ir API has a bad data entry for Match 29 (Brazil vs Haiti).
+            // It returns 22:00 BRT, but the official time is 21:30 BRT.
+            // All other 103 matches are perfectly correct. We manually patch Match 29 here.
+            if (game.id === "29" && game.home_team_name_en === "Brazil" && game.away_team_name_en === "Haiti") {
+              const parts = localDateConverted.split(' ');
+              if (parts[1] === "22:00") {
+                localDateConverted = `${parts[0]} 21:30`;
+              }
+            }
+
+            return {
+              ...game,
+              local_date_original: game.local_date,
+              local_date: localDateConverted
+            };
+          })
         };
 
         // Convert teams array to a lookup map

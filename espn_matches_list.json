@@ -1,0 +1,522 @@
+[
+  {
+    "id": "760415",
+    "date": "2026-06-11T19:00Z",
+    "name": "South Africa at Mexico"
+  },
+  {
+    "id": "760414",
+    "date": "2026-06-12T02:00Z",
+    "name": "Czechia at South Korea"
+  },
+  {
+    "id": "760416",
+    "date": "2026-06-12T19:00Z",
+    "name": "Bosnia-Herzegovina at Canada"
+  },
+  {
+    "id": "760417",
+    "date": "2026-06-13T01:00Z",
+    "name": "Paraguay at United States"
+  },
+  {
+    "id": "760420",
+    "date": "2026-06-13T19:00Z",
+    "name": "Switzerland at Qatar"
+  },
+  {
+    "id": "760419",
+    "date": "2026-06-13T22:00Z",
+    "name": "Morocco at Brazil"
+  },
+  {
+    "id": "760418",
+    "date": "2026-06-14T01:00Z",
+    "name": "Scotland at Haiti"
+  },
+  {
+    "id": "760421",
+    "date": "2026-06-14T04:00Z",
+    "name": "Türkiye at Australia"
+  },
+  {
+    "id": "760422",
+    "date": "2026-06-14T17:00Z",
+    "name": "Curaçao at Germany"
+  },
+  {
+    "id": "760425",
+    "date": "2026-06-14T20:00Z",
+    "name": "Japan at Netherlands"
+  },
+  {
+    "id": "760423",
+    "date": "2026-06-14T23:00Z",
+    "name": "Ecuador at Ivory Coast"
+  },
+  {
+    "id": "760424",
+    "date": "2026-06-15T02:00Z",
+    "name": "Tunisia at Sweden"
+  },
+  {
+    "id": "760428",
+    "date": "2026-06-15T16:00Z",
+    "name": "Cape Verde at Spain"
+  },
+  {
+    "id": "760426",
+    "date": "2026-06-15T19:00Z",
+    "name": "Egypt at Belgium"
+  },
+  {
+    "id": "760429",
+    "date": "2026-06-15T22:00Z",
+    "name": "Uruguay at Saudi Arabia"
+  },
+  {
+    "id": "760427",
+    "date": "2026-06-16T01:00Z",
+    "name": "New Zealand at Iran"
+  },
+  {
+    "id": "760432",
+    "date": "2026-06-16T19:00Z",
+    "name": "Senegal at France"
+  },
+  {
+    "id": "760430",
+    "date": "2026-06-16T22:00Z",
+    "name": "Norway at Iraq"
+  },
+  {
+    "id": "760433",
+    "date": "2026-06-17T01:00Z",
+    "name": "Algeria at Argentina"
+  },
+  {
+    "id": "760431",
+    "date": "2026-06-17T04:00Z",
+    "name": "Jordan at Austria"
+  },
+  {
+    "id": "760435",
+    "date": "2026-06-17T17:00Z",
+    "name": "Congo DR at Portugal"
+  },
+  {
+    "id": "760437",
+    "date": "2026-06-17T20:00Z",
+    "name": "Croatia at England"
+  },
+  {
+    "id": "760434",
+    "date": "2026-06-17T23:00Z",
+    "name": "Panama at Ghana"
+  },
+  {
+    "id": "760436",
+    "date": "2026-06-18T02:00Z",
+    "name": "Colombia at Uzbekistan"
+  },
+  {
+    "id": "760438",
+    "date": "2026-06-18T16:00Z",
+    "name": "South Africa at Czechia"
+  },
+  {
+    "id": "760439",
+    "date": "2026-06-18T19:00Z",
+    "name": "Bosnia-Herzegovina at Switzerland"
+  },
+  {
+    "id": "760440",
+    "date": "2026-06-18T22:00Z",
+    "name": "Qatar at Canada"
+  },
+  {
+    "id": "760441",
+    "date": "2026-06-19T01:00Z",
+    "name": "South Korea at Mexico"
+  },
+  {
+    "id": "760442",
+    "date": "2026-06-19T19:00Z",
+    "name": "Australia at United States"
+  },
+  {
+    "id": "760445",
+    "date": "2026-06-19T22:00Z",
+    "name": "Morocco at Scotland"
+  },
+  {
+    "id": "760444",
+    "date": "2026-06-20T00:30Z",
+    "name": "Haiti at Brazil"
+  },
+  {
+    "id": "760443",
+    "date": "2026-06-20T03:00Z",
+    "name": "Paraguay at Türkiye"
+  },
+  {
+    "id": "760447",
+    "date": "2026-06-20T17:00Z",
+    "name": "Sweden at Netherlands"
+  },
+  {
+    "id": "760448",
+    "date": "2026-06-20T20:00Z",
+    "name": "Ivory Coast at Germany"
+  },
+  {
+    "id": "760446",
+    "date": "2026-06-21T00:00Z",
+    "name": "Curaçao at Ecuador"
+  },
+  {
+    "id": "760449",
+    "date": "2026-06-21T04:00Z",
+    "name": "Japan at Tunisia"
+  },
+  {
+    "id": "760453",
+    "date": "2026-06-21T16:00Z",
+    "name": "Saudi Arabia at Spain"
+  },
+  {
+    "id": "760451",
+    "date": "2026-06-21T19:00Z",
+    "name": "Iran at Belgium"
+  },
+  {
+    "id": "760450",
+    "date": "2026-06-21T22:00Z",
+    "name": "Cape Verde at Uruguay"
+  },
+  {
+    "id": "760452",
+    "date": "2026-06-22T01:00Z",
+    "name": "Egypt at New Zealand"
+  },
+  {
+    "id": "760456",
+    "date": "2026-06-22T17:00Z",
+    "name": "Austria at Argentina"
+  },
+  {
+    "id": "760457",
+    "date": "2026-06-22T21:00Z",
+    "name": "Iraq at France"
+  },
+  {
+    "id": "760454",
+    "date": "2026-06-23T00:00Z",
+    "name": "Senegal at Norway"
+  },
+  {
+    "id": "760455",
+    "date": "2026-06-23T03:00Z",
+    "name": "Algeria at Jordan"
+  },
+  {
+    "id": "760461",
+    "date": "2026-06-23T17:00Z",
+    "name": "Uzbekistan at Portugal"
+  },
+  {
+    "id": "760458",
+    "date": "2026-06-23T20:00Z",
+    "name": "Ghana at England"
+  },
+  {
+    "id": "760460",
+    "date": "2026-06-23T23:00Z",
+    "name": "Croatia at Panama"
+  },
+  {
+    "id": "760459",
+    "date": "2026-06-24T02:00Z",
+    "name": "Congo DR at Colombia"
+  },
+  {
+    "id": "760462",
+    "date": "2026-06-24T19:00Z",
+    "name": "Qatar at Bosnia-Herzegovina"
+  },
+  {
+    "id": "760463",
+    "date": "2026-06-24T19:00Z",
+    "name": "Canada at Switzerland"
+  },
+  {
+    "id": "760464",
+    "date": "2026-06-24T22:00Z",
+    "name": "Haiti at Morocco"
+  },
+  {
+    "id": "760465",
+    "date": "2026-06-24T22:00Z",
+    "name": "Brazil at Scotland"
+  },
+  {
+    "id": "760467",
+    "date": "2026-06-25T01:00Z",
+    "name": "Mexico at Czechia"
+  },
+  {
+    "id": "760466",
+    "date": "2026-06-25T01:00Z",
+    "name": "South Korea at South Africa"
+  },
+  {
+    "id": "760473",
+    "date": "2026-06-25T20:00Z",
+    "name": "Ivory Coast at Curaçao"
+  },
+  {
+    "id": "760468",
+    "date": "2026-06-25T20:00Z",
+    "name": "Germany at Ecuador"
+  },
+  {
+    "id": "760471",
+    "date": "2026-06-25T23:00Z",
+    "name": "Sweden at Japan"
+  },
+  {
+    "id": "760472",
+    "date": "2026-06-25T23:00Z",
+    "name": "Netherlands at Tunisia"
+  },
+  {
+    "id": "760469",
+    "date": "2026-06-26T02:00Z",
+    "name": "Australia at Paraguay"
+  },
+  {
+    "id": "760470",
+    "date": "2026-06-26T02:00Z",
+    "name": "United States at Türkiye"
+  },
+  {
+    "id": "760475",
+    "date": "2026-06-26T19:00Z",
+    "name": "France at Norway"
+  },
+  {
+    "id": "760474",
+    "date": "2026-06-26T19:00Z",
+    "name": "Iraq at Senegal"
+  },
+  {
+    "id": "760478",
+    "date": "2026-06-27T00:00Z",
+    "name": "Saudi Arabia at Cape Verde"
+  },
+  {
+    "id": "760479",
+    "date": "2026-06-27T00:00Z",
+    "name": "Spain at Uruguay"
+  },
+  {
+    "id": "760476",
+    "date": "2026-06-27T03:00Z",
+    "name": "Iran at Egypt"
+  },
+  {
+    "id": "760477",
+    "date": "2026-06-27T03:00Z",
+    "name": "Belgium at New Zealand"
+  },
+  {
+    "id": "760480",
+    "date": "2026-06-27T21:00Z",
+    "name": "Ghana at Croatia"
+  },
+  {
+    "id": "760485",
+    "date": "2026-06-27T21:00Z",
+    "name": "England at Panama"
+  },
+  {
+    "id": "760481",
+    "date": "2026-06-27T23:30Z",
+    "name": "Portugal at Colombia"
+  },
+  {
+    "id": "760482",
+    "date": "2026-06-27T23:30Z",
+    "name": "Uzbekistan at Congo DR"
+  },
+  {
+    "id": "760484",
+    "date": "2026-06-28T02:00Z",
+    "name": "Austria at Algeria"
+  },
+  {
+    "id": "760483",
+    "date": "2026-06-28T02:00Z",
+    "name": "Argentina at Jordan"
+  },
+  {
+    "id": "760486",
+    "date": "2026-06-28T19:00Z",
+    "name": "Group B 2nd Place at Group A 2nd Place"
+  },
+  {
+    "id": "760487",
+    "date": "2026-06-29T17:00Z",
+    "name": "Group F 2nd Place at Group C Winner"
+  },
+  {
+    "id": "760489",
+    "date": "2026-06-29T20:30Z",
+    "name": "Third Place Group A/B/C/D/F at Group E Winner"
+  },
+  {
+    "id": "760488",
+    "date": "2026-06-30T01:00Z",
+    "name": "Group C 2nd Place at Group F Winner"
+  },
+  {
+    "id": "760490",
+    "date": "2026-06-30T17:00Z",
+    "name": "Group I 2nd Place at Group E 2nd Place"
+  },
+  {
+    "id": "760492",
+    "date": "2026-06-30T21:00Z",
+    "name": "Third Place Group C/D/F/G/H at Group I Winner"
+  },
+  {
+    "id": "760491",
+    "date": "2026-07-01T01:00Z",
+    "name": "Third Place Group C/E/F/H/I at Mexico"
+  },
+  {
+    "id": "760495",
+    "date": "2026-07-01T16:00Z",
+    "name": "Third Place Group E/H/I/J/K at Group L Winner"
+  },
+  {
+    "id": "760493",
+    "date": "2026-07-01T20:00Z",
+    "name": "Third Place Group A/E/H/I/J at Group G Winner"
+  },
+  {
+    "id": "760494",
+    "date": "2026-07-02T00:00Z",
+    "name": "Third Place Group B/E/F/I/J at Group D Winner"
+  },
+  {
+    "id": "760497",
+    "date": "2026-07-02T19:00Z",
+    "name": "Group J 2nd Place at Group H Winner"
+  },
+  {
+    "id": "760496",
+    "date": "2026-07-02T23:00Z",
+    "name": "Group L 2nd Place at Group K 2nd Place"
+  },
+  {
+    "id": "760498",
+    "date": "2026-07-03T03:00Z",
+    "name": "Third Place Group E/F/G/I/J at Group B Winner"
+  },
+  {
+    "id": "760499",
+    "date": "2026-07-03T18:00Z",
+    "name": "Group G 2nd Place at Group D 2nd Place"
+  },
+  {
+    "id": "760500",
+    "date": "2026-07-03T22:00Z",
+    "name": "Group H 2nd Place at Group J Winner"
+  },
+  {
+    "id": "760501",
+    "date": "2026-07-04T01:30Z",
+    "name": "Third Place Group D/E/I/J/L at Group K Winner"
+  },
+  {
+    "id": "760502",
+    "date": "2026-07-04T17:00Z",
+    "name": "Round of 32 3 Winner at Round of 32 1 Winner"
+  },
+  {
+    "id": "760503",
+    "date": "2026-07-04T21:00Z",
+    "name": "Round of 32 5 Winner at Round of 32 2 Winner"
+  },
+  {
+    "id": "760504",
+    "date": "2026-07-05T20:00Z",
+    "name": "Round of 32 6 Winner at Round of 32 4 Winner"
+  },
+  {
+    "id": "760505",
+    "date": "2026-07-06T00:00Z",
+    "name": "Round of 32 8 Winner at Round of 32 7 Winner"
+  },
+  {
+    "id": "760506",
+    "date": "2026-07-06T19:00Z",
+    "name": "Round of 32 12 Winner at Round of 32 11 Winner"
+  },
+  {
+    "id": "760507",
+    "date": "2026-07-07T00:00Z",
+    "name": "Round of 32 10 Winner at Round of 32 9 Winner"
+  },
+  {
+    "id": "760509",
+    "date": "2026-07-07T16:00Z",
+    "name": "Round of 32 16 Winner at Round of 32 14 Winner"
+  },
+  {
+    "id": "760508",
+    "date": "2026-07-07T20:00Z",
+    "name": "Round of 32 15 Winner at Round of 32 13 Winner"
+  },
+  {
+    "id": "760510",
+    "date": "2026-07-09T20:00Z",
+    "name": "Round of 16 2 Winner at Round of 16 1 Winner"
+  },
+  {
+    "id": "760511",
+    "date": "2026-07-10T19:00Z",
+    "name": "Round of 16 6 Winner at Round of 16 5 Winner"
+  },
+  {
+    "id": "760512",
+    "date": "2026-07-11T21:00Z",
+    "name": "Round of 16 4 Winner at Round of 16 3 Winner"
+  },
+  {
+    "id": "760513",
+    "date": "2026-07-12T01:00Z",
+    "name": "Round of 16 8 Winner at Round of 16 7 Winner"
+  },
+  {
+    "id": "760514",
+    "date": "2026-07-14T19:00Z",
+    "name": "Quarterfinal 2 Winner at Quarterfinal 1 Winner"
+  },
+  {
+    "id": "760515",
+    "date": "2026-07-15T19:00Z",
+    "name": "Quarterfinal 4 Winner at Quarterfinal 3 Winner"
+  },
+  {
+    "id": "760516",
+    "date": "2026-07-18T21:00Z",
+    "name": "Semifinal 2 Loser at Semifinal 1 Loser"
+  },
+  {
+    "id": "760517",
+    "date": "2026-07-19T19:00Z",
+    "name": "Semifinal 2 Winner at Semifinal 1 Winner"
+  }
+]

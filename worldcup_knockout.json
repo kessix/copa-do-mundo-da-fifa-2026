@@ -1,0 +1,160 @@
+{
+  "id": "73",
+  "home_label": "Runner-up Group A",
+  "away_label": "Runner-up Group B"
+}
+{
+  "id": "74",
+  "home_label": "Winner Group E",
+  "away_label": "3rd Group A/B/C/D/F"
+}
+{
+  "id": "75",
+  "home_label": "Winner Group F",
+  "away_label": "Runner-up Group C"
+}
+{
+  "id": "76",
+  "home_label": "Winner Group C",
+  "away_label": "Runner-up Group F"
+}
+{
+  "id": "77",
+  "home_label": "Winner Group I",
+  "away_label": "3rd Group C/D/F/G/H"
+}
+{
+  "id": "78",
+  "home_label": "Runner-up Group E",
+  "away_label": "Runner-up Group I"
+}
+{
+  "id": "79",
+  "home_label": "Winner Group A",
+  "away_label": "3rd Group C/E/F/H/I"
+}
+{
+  "id": "80",
+  "home_label": "Winner Group L",
+  "away_label": "3rd Group E/H/I/J/K"
+}
+{
+  "id": "81",
+  "home_label": "Winner Group D",
+  "away_label": "3rd Group B/E/F/I/J"
+}
+{
+  "id": "82",
+  "home_label": "Winner Group G",
+  "away_label": "3rd Group A/E/H/I/J"
+}
+{
+  "id": "83",
+  "home_label": "Runner-up Group K",
+  "away_label": "Runner-up Group L"
+}
+{
+  "id": "84",
+  "home_label": "Winner Group H",
+  "away_label": "Runner-up Group J"
+}
+{
+  "id": "85",
+  "home_label": "Winner Group B",
+  "away_label": "3rd Group E/F/G/I/J"
+}
+{
+  "id": "86",
+  "home_label": "Winner Group J",
+  "away_label": "Runner-up Group H"
+}
+{
+  "id": "87",
+  "home_label": "Winner Group K",
+  "away_label": "3rd Group D/E/I/J/L"
+}
+{
+  "id": "88",
+  "home_label": "Runner-up Group D",
+  "away_label": "Runner-up Group G"
+}
+{
+  "id": "89",
+  "home_label": "Winner Match 74",
+  "away_label": "Winner Match 77"
+}
+{
+  "id": "90",
+  "home_label": "Winner Match 73",
+  "away_label": "Winner Match 75"
+}
+{
+  "id": "91",
+  "home_label": "Winner Match 76",
+  "away_label": "Winner Match 78"
+}
+{
+  "id": "92",
+  "home_label": "Winner Match 79",
+  "away_label": "Winner Match 80"
+}
+{
+  "id": "93",
+  "home_label": "Winner Match 83",
+  "away_label": "Winner Match 84"
+}
+{
+  "id": "94",
+  "home_label": "Winner Match 81",
+  "away_label": "Winner Match 82"
+}
+{
+  "id": "95",
+  "home_label": "Winner Match 86",
+  "away_label": "Winner Match 88"
+}
+{
+  "id": "96",
+  "home_label": "Winner Match 85",
+  "away_label": "Winner Match 87"
+}
+{
+  "id": "97",
+  "home_label": "Winner Match 89",
+  "away_label": "Winner Match 90"
+}
+{
+  "id": "98",
+  "home_label": "Winner Match 93",
+  "away_label": "Winner Match 94"
+}
+{
+  "id": "99",
+  "home_label": "Winner Match 91",
+  "away_label": "Winner Match 92"
+}
+{
+  "id": "100",
+  "home_label": "Winner Match 95",
+  "away_label": "Winner Match 96"
+}
+{
+  "id": "101",
+  "home_label": "Winner Match 97",
+  "away_label": "Winner Match 98"
+}
+{
+  "id": "102",
+  "home_label": "Winner Match 99",
+  "away_label": "Winner Match 100"
+}
+{
+  "id": "103",
+  "home_label": "Loser Match 101",
+  "away_label": "Loser Match 102"
+}
+{
+  "id": "104",
+  "home_label": "Winner Match 101",
+  "away_label": "Winner Match 102"
+}
